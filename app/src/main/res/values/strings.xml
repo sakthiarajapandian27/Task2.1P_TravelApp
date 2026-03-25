@@ -1,0 +1,27 @@
+<resources>
+    <string-array name="category_array">
+        <item>Currency</item>
+        <item>Fuel</item>
+        <item>Temperature</item>
+    </string-array>
+
+    <string-array name="currency_array">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>EUR</item>
+        <item>JPY</item>
+        <item>GBP</item>
+    </string-array>
+
+    <string-array name="fuel_array">
+        <item>mpg</item>
+        <item>km/L</item>
+    </string-array>
+
+    <string-array name="temperature_array">
+        <item>C</item>
+        <item>F</item>
+        <item>K</item>
+    </string-array>
+
+</resources>
