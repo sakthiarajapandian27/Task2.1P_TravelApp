@@ -8,7 +8,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- 🔷 Card Container -->
     <LinearLayout
         android:orientation="vertical"
         android:padding="20dp"
@@ -18,7 +17,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!-- Title -->
         <TextView
             android:text="Travel Companion App"
             android:textSize="24sp"
@@ -29,28 +27,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <!-- Category -->
         <Spinner
             android:id="@+id/spinnerCategory"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"/>
 
-        <!-- From -->
         <Spinner
             android:id="@+id/spinnerFrom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"/>
 
-        <!-- To -->
         <Spinner
             android:id="@+id/spinnerTo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"/>
 
-        <!-- ✨ Improved Input Field -->
         <EditText
             android:id="@+id/editValue"
             android:hint="Enter value"
@@ -61,7 +55,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <!-- 🔵 Button -->
         <Button
             android:id="@+id/btnConvert"
             android:text="Convert"
@@ -71,7 +64,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <!-- Result -->
         <TextView
             android:id="@+id/textResult"
             android:text="Result"
